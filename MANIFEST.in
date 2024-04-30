@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kingstech *.css
+recursive-include kingstech *.csv
+recursive-include kingstech *.html
+recursive-include kingstech *.ico
+recursive-include kingstech *.js
+recursive-include kingstech *.json
+recursive-include kingstech *.md
+recursive-include kingstech *.png
+recursive-include kingstech *.py
+recursive-include kingstech *.svg
+recursive-include kingstech *.txt
+recursive-exclude kingstech *.pyc
